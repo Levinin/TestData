@@ -69,7 +69,7 @@ headings = X.columns.tolist()
 # 3D graph so get 3 column indexes
 # Can be from any except the labels column which will be the final column number
 
-options = input("Enter 3 columns from the " + str((len(headings)-1)) + " items as a list \"x,y,z\"(First item is 0) :")
+options = input("Enter 3 columns from the " + str(len(col_int)) + " items as a list \"x,y,z\"(First item is 0) :")
 
 # They should be numbers. Set up some kind of input value test at some point...
 options = eval(options)
